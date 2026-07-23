@@ -1,0 +1,1001 @@
+Text,Label,Window,User Name,User ID,Cleaned_Text,Predicted_Sentiment,Confidence_Score,Final_Sentiment
+"It works as described, no major issues.",Neutral,Flipkart,Arjun Singh,U1001,It works as described no major issues,Positive,0.9906,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Vikram Joshi,U1002,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Ananya Roy,U1003,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1004,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1005,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Raj Verma,U1006,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Neha Gupta,U1007,Very poor quality not worth the money,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Sneha Patel,U1008,The experience was average not bad,Positive,0.9909,Positive
+Item arrived late and was damaged.,Negative,Amazon,Sneha Patel,U1009,Item arrived late and was damaged,Negative,0.9993,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1010,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Neha Gupta,U1011,Very poor quality not worth the money,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1012,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1013,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1014,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Ananya Roy,U1015,Very poor quality not worth the money,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Neha Gupta,U1016,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1017,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Amazon,Vikram Joshi,U1018,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Karan Mehta,U1019,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1020,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Sneha Patel,U1021,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1022,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Amazon,Karan Mehta,U1023,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1024,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Raj Verma,U1025,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1026,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Arjun Singh,U1027,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Ananya Roy,U1028,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1029,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Flipkart,Ananya Roy,U1030,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Karan Mehta,U1031,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1032,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Karan Mehta,U1033,Item arrived late and was damaged,Negative,0.9993,Negative
+Item arrived late and was damaged.,Negative,Amazon,Priya Sharma,U1034,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1035,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1036,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Ananya Roy,U1037,Very poor quality not worth the money,Negative,0.9998,Negative
+Excellent customer service and great product.,Positive,Amazon,Raj Verma,U1038,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Vikram Joshi,U1039,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Vikram Joshi,U1040,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1041,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Karan Mehta,U1042,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Item arrived late and was damaged.,Negative,Amazon,Arjun Singh,U1043,Item arrived late and was damaged,Negative,0.9993,Negative
+The product stopped working after a few days.,Negative,Amazon,Priya Sharma,U1044,The product stopped working after a few days,Negative,0.9996,Negative
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1045,The experience was average not bad,Positive,0.9909,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Ananya Roy,U1046,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1047,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1048,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1049,The product stopped working after a few days,Negative,0.9996,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Karan Mehta,U1050,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1051,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1052,Excellent customer service and great product,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Raj Verma,U1053,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1054,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Sneha Patel,U1055,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Sneha Patel,U1056,The product is functional but lacks some features,Negative,0.9963,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1057,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Raj Verma,U1058,The product stopped working after a few days,Negative,0.9996,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Vikram Joshi,U1059,The product is okay nothing special,Negative,0.9908,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1060,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Vikram Joshi,U1061,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1062,Excellent customer service and great product,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1063,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Arjun Singh,U1064,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Raj Verma,U1065,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1066,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Karan Mehta,U1067,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1068,The product is functional but lacks some features,Negative,0.9963,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Karan Mehta,U1069,The product is okay nothing special,Negative,0.9908,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1070,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1071,Very poor quality not worth the money,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Amazon,Sneha Patel,U1072,The product stopped working after a few days,Negative,0.9996,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1073,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1074,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1075,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1076,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Karan Mehta,U1077,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Arjun Singh,U1078,The product is functional but lacks some features,Negative,0.9963,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1079,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Sneha Patel,U1080,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1081,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Sneha Patel,U1082,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Amazon,Ananya Roy,U1083,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Ananya Roy,U1084,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Arjun Singh,U1085,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1086,It works as described no major issues,Positive,0.9906,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Raj Verma,U1087,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1088,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1089,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1090,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1091,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1092,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Excellent customer service and great product.,Positive,Flipkart,Ananya Roy,U1093,Excellent customer service and great product,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Vikram Joshi,U1094,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Arjun Singh,U1095,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Amazon,Vikram Joshi,U1096,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1097,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1098,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Neha Gupta,U1099,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1100,Excellent customer service and great product,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Karan Mehta,U1101,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1102,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Neha Gupta,U1103,Very poor quality not worth the money,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Vikram Joshi,U1104,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Amazon,Karan Mehta,U1105,The experience was average not bad,Positive,0.9909,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Karan Mehta,U1106,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1107,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1108,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Arjun Singh,U1109,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1110,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Priya Sharma,U1111,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Raj Verma,U1112,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Karan Mehta,U1113,The product is functional but lacks some features,Negative,0.9963,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Ananya Roy,U1114,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1115,The product is functional but lacks some features,Negative,0.9963,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Arjun Singh,U1116,Very poor quality not worth the money,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Priya Sharma,U1117,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1118,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"It works as described, no major issues.",Neutral,Amazon,Arjun Singh,U1119,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1120,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1121,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Ananya Roy,U1122,It works as described no major issues,Positive,0.9906,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Ananya Roy,U1123,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Ananya Roy,U1124,The product is functional but lacks some features,Negative,0.9963,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1125,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Neha Gupta,U1126,Very poor quality not worth the money,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Arjun Singh,U1127,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Priya Sharma,U1128,The product is okay nothing special,Negative,0.9908,Negative
+"The experience was average, not bad.",Neutral,Amazon,Sneha Patel,U1129,The experience was average not bad,Positive,0.9909,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1130,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Amazon,Arjun Singh,U1131,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Vikram Joshi,U1132,Very poor quality not worth the money,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1133,Amazing quality totally worth the price,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Priya Sharma,U1134,Item arrived late and was damaged,Negative,0.9993,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1135,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"It works as described, no major issues.",Neutral,Amazon,Ananya Roy,U1136,It works as described no major issues,Positive,0.9906,Positive
+"The experience was average, not bad.",Neutral,Amazon,Ananya Roy,U1137,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Vikram Joshi,U1138,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1139,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Priya Sharma,U1140,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Raj Verma,U1141,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1142,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1143,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Amazon,Sneha Patel,U1144,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Raj Verma,U1145,The product is functional but lacks some features,Negative,0.9963,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Sneha Patel,U1146,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Ananya Roy,U1147,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1148,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1149,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1150,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Raj Verma,U1151,The experience was average not bad,Positive,0.9909,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Sneha Patel,U1152,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Sneha Patel,U1153,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1154,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1155,The product is functional but lacks some features,Negative,0.9963,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1156,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1157,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1158,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Ananya Roy,U1159,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1160,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Amazon,Raj Verma,U1161,The experience was average not bad,Positive,0.9909,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Arjun Singh,U1162,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1163,The product is functional but lacks some features,Negative,0.9963,Negative
+The product stopped working after a few days.,Negative,Amazon,Raj Verma,U1164,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Raj Verma,U1165,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1166,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1167,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Raj Verma,U1168,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1169,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Raj Verma,U1170,The product is okay nothing special,Negative,0.9908,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1171,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Neha Gupta,U1172,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Raj Verma,U1173,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1174,It works as described no major issues,Positive,0.9906,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Neha Gupta,U1175,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1176,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1177,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1178,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Raj Verma,U1179,Excellent customer service and great product,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1180,Item arrived late and was damaged,Negative,0.9993,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1181,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Sneha Patel,U1182,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Flipkart,Neha Gupta,U1183,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1184,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Arjun Singh,U1185,The experience was average not bad,Positive,0.9909,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1186,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Ananya Roy,U1187,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Ananya Roy,U1188,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Arjun Singh,U1189,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1190,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Neha Gupta,U1191,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Vikram Joshi,U1192,It works as described no major issues,Positive,0.9906,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Karan Mehta,U1193,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Sneha Patel,U1194,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1195,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Raj Verma,U1196,Very poor quality not worth the money,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Sneha Patel,U1197,The experience was average not bad,Positive,0.9909,Positive
+Excellent customer service and great product.,Positive,Amazon,Neha Gupta,U1198,Excellent customer service and great product,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Vikram Joshi,U1199,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1200,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Raj Verma,U1201,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1202,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1203,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Item arrived late and was damaged.,Negative,Amazon,Vikram Joshi,U1204,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1205,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Karan Mehta,U1206,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Arjun Singh,U1207,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1208,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Arjun Singh,U1209,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Amazon,Neha Gupta,U1210,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1211,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Ananya Roy,U1212,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Flipkart,Neha Gupta,U1213,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Amazon,Neha Gupta,U1214,Item arrived late and was damaged,Negative,0.9993,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1215,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Ananya Roy,U1216,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Karan Mehta,U1217,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1218,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Vikram Joshi,U1219,Very poor quality not worth the money,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1220,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1221,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Sneha Patel,U1222,The product stopped working after a few days,Negative,0.9996,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Arjun Singh,U1223,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Arjun Singh,U1224,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1225,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1226,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Vikram Joshi,U1227,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1228,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1229,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Amazon,Karan Mehta,U1230,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Priya Sharma,U1231,The product stopped working after a few days,Negative,0.9996,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1232,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Raj Verma,U1233,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1234,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1235,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Karan Mehta,U1236,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Arjun Singh,U1237,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1238,The product stopped working after a few days,Negative,0.9996,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Ananya Roy,U1239,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Arjun Singh,U1240,The product is okay nothing special,Negative,0.9908,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1241,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1242,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Priya Sharma,U1243,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1244,The experience was average not bad,Positive,0.9909,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1245,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Karan Mehta,U1246,The product is functional but lacks some features,Negative,0.9963,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Karan Mehta,U1247,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Neha Gupta,U1248,The product is okay nothing special,Negative,0.9908,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Arjun Singh,U1249,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Vikram Joshi,U1250,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Arjun Singh,U1251,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Arjun Singh,U1252,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1253,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Amazon,Arjun Singh,U1254,Item arrived late and was damaged,Negative,0.9993,Negative
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1255,The product stopped working after a few days,Negative,0.9996,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1256,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Arjun Singh,U1257,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Vikram Joshi,U1258,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1259,It works as described no major issues,Positive,0.9906,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Karan Mehta,U1260,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1261,The product is okay nothing special,Negative,0.9908,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Vikram Joshi,U1262,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Karan Mehta,U1263,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1264,The experience was average not bad,Positive,0.9909,Positive
+Item arrived late and was damaged.,Negative,Amazon,Karan Mehta,U1265,Item arrived late and was damaged,Negative,0.9993,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1266,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Karan Mehta,U1267,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Neha Gupta,U1268,The product is okay nothing special,Negative,0.9908,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1269,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Priya Sharma,U1270,Very poor quality not worth the money,Negative,0.9998,Negative
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1271,Excellent customer service and great product,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1272,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Raj Verma,U1273,The product is okay nothing special,Negative,0.9908,Negative
+"The experience was average, not bad.",Neutral,Amazon,Vikram Joshi,U1274,The experience was average not bad,Positive,0.9909,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Priya Sharma,U1275,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1276,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Ananya Roy,U1277,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1278,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1279,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1280,The product is okay nothing special,Negative,0.9908,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Arjun Singh,U1281,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Arjun Singh,U1282,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1283,Excellent customer service and great product,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Karan Mehta,U1284,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1285,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Arjun Singh,U1286,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Amazon,Ananya Roy,U1287,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Vikram Joshi,U1288,The product stopped working after a few days,Negative,0.9996,Negative
+The product stopped working after a few days.,Negative,Amazon,Arjun Singh,U1289,The product stopped working after a few days,Negative,0.9996,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Priya Sharma,U1290,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1291,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1292,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1293,Excellent customer service and great product,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Priya Sharma,U1294,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1295,Excellent customer service and great product,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Amazon,Ananya Roy,U1296,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1297,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Neha Gupta,U1298,Excellent customer service and great product,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Raj Verma,U1299,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Amazon,Arjun Singh,U1300,The experience was average not bad,Positive,0.9909,Positive
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1301,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Priya Sharma,U1302,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Karan Mehta,U1303,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1304,The experience was average not bad,Positive,0.9909,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1305,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Sneha Patel,U1306,The experience was average not bad,Positive,0.9909,Positive
+"The experience was average, not bad.",Neutral,Amazon,Arjun Singh,U1307,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Priya Sharma,U1308,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1309,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1310,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Priya Sharma,U1311,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1312,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1313,Excellent customer service and great product,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1314,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1315,The product is functional but lacks some features,Negative,0.9963,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Priya Sharma,U1316,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Neha Gupta,U1317,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1318,Excellent customer service and great product,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Sneha Patel,U1319,The product is okay nothing special,Negative,0.9908,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Priya Sharma,U1320,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1321,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1322,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1323,The experience was average not bad,Positive,0.9909,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1324,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Sneha Patel,U1325,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Vikram Joshi,U1326,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1327,It works as described no major issues,Positive,0.9906,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1328,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Priya Sharma,U1329,The product is okay nothing special,Negative,0.9908,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Vikram Joshi,U1330,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1331,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1332,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Ananya Roy,U1333,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1334,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1335,Very poor quality not worth the money,Negative,0.9998,Negative
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1336,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1337,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1338,Excellent customer service and great product,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Sneha Patel,U1339,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1340,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1341,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Excellent customer service and great product.,Positive,Flipkart,Karan Mehta,U1342,Excellent customer service and great product,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1343,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1344,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Sneha Patel,U1345,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Sneha Patel,U1346,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Karan Mehta,U1347,It works as described no major issues,Positive,0.9906,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1348,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1349,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Sneha Patel,U1350,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1351,The product is okay nothing special,Negative,0.9908,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1352,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1353,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1354,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Sneha Patel,U1355,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Excellent customer service and great product.,Positive,Amazon,Priya Sharma,U1356,Excellent customer service and great product,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Sneha Patel,U1357,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Arjun Singh,U1358,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1359,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Neha Gupta,U1360,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Karan Mehta,U1361,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Ananya Roy,U1362,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Priya Sharma,U1363,Very poor quality not worth the money,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Sneha Patel,U1364,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1365,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Raj Verma,U1366,The experience was average not bad,Positive,0.9909,Positive
+"The experience was average, not bad.",Neutral,Amazon,Vikram Joshi,U1367,The experience was average not bad,Positive,0.9909,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Vikram Joshi,U1368,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Karan Mehta,U1369,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Arjun Singh,U1370,The product is okay nothing special,Negative,0.9908,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1371,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Vikram Joshi,U1372,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Vikram Joshi,U1373,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Vikram Joshi,U1374,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Arjun Singh,U1375,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1376,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Priya Sharma,U1377,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1378,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1379,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product stopped working after a few days.,Negative,Amazon,Arjun Singh,U1380,The product stopped working after a few days,Negative,0.9996,Negative
+"It works as described, no major issues.",Neutral,Amazon,Raj Verma,U1381,It works as described no major issues,Positive,0.9906,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1382,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1383,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Excellent customer service and great product.,Positive,Amazon,Neha Gupta,U1384,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Karan Mehta,U1385,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Neha Gupta,U1386,The product stopped working after a few days,Negative,0.9996,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Raj Verma,U1387,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1388,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Neha Gupta,U1389,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1390,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Vikram Joshi,U1391,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1392,The experience was average not bad,Positive,0.9909,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1393,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1394,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Priya Sharma,U1395,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Arjun Singh,U1396,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Neha Gupta,U1397,The experience was average not bad,Positive,0.9909,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Raj Verma,U1398,The product is okay nothing special,Negative,0.9908,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Arjun Singh,U1399,Item arrived late and was damaged,Negative,0.9993,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Vikram Joshi,U1400,The product is okay nothing special,Negative,0.9908,Negative
+Item arrived late and was damaged.,Negative,Amazon,Arjun Singh,U1401,Item arrived late and was damaged,Negative,0.9993,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Karan Mehta,U1402,Very poor quality not worth the money,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Priya Sharma,U1403,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1404,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Item arrived late and was damaged.,Negative,Amazon,Neha Gupta,U1405,Item arrived late and was damaged,Negative,0.9993,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1406,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1407,Excellent customer service and great product,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1408,The product is functional but lacks some features,Negative,0.9963,Negative
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1409,Item arrived late and was damaged,Negative,0.9993,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1410,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Karan Mehta,U1411,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Raj Verma,U1412,The product stopped working after a few days,Negative,0.9996,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1413,The product is functional but lacks some features,Negative,0.9963,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Arjun Singh,U1414,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1415,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Neha Gupta,U1416,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Arjun Singh,U1417,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Neha Gupta,U1418,The product is functional but lacks some features,Negative,0.9963,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Sneha Patel,U1419,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Amazon,Priya Sharma,U1420,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1421,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1422,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Ananya Roy,U1423,The product is functional but lacks some features,Negative,0.9963,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Priya Sharma,U1424,Item arrived late and was damaged,Negative,0.9993,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Raj Verma,U1425,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Ananya Roy,U1426,The product is okay nothing special,Negative,0.9908,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Vikram Joshi,U1427,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Amazon,Arjun Singh,U1428,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1429,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Amazon,Priya Sharma,U1430,Item arrived late and was damaged,Negative,0.9993,Negative
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1431,The product stopped working after a few days,Negative,0.9996,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1432,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Sneha Patel,U1433,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Flipkart,Arjun Singh,U1434,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Karan Mehta,U1435,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Karan Mehta,U1436,The product is okay nothing special,Negative,0.9908,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Neha Gupta,U1437,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1438,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1439,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1440,The experience was average not bad,Positive,0.9909,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Sneha Patel,U1441,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1442,The product is okay nothing special,Negative,0.9908,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Arjun Singh,U1443,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Sneha Patel,U1444,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1445,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Arjun Singh,U1446,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1447,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1448,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Raj Verma,U1449,Item arrived late and was damaged,Negative,0.9993,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1450,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Raj Verma,U1451,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Priya Sharma,U1452,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Amazon,Neha Gupta,U1453,The product stopped working after a few days,Negative,0.9996,Negative
+Excellent customer service and great product.,Positive,Amazon,Raj Verma,U1454,Excellent customer service and great product,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1455,Amazing quality totally worth the price,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Raj Verma,U1456,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1457,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Amazon,Ananya Roy,U1458,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1459,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1460,Excellent customer service and great product,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Sneha Patel,U1461,Very poor quality not worth the money,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Amazon,Priya Sharma,U1462,The experience was average not bad,Positive,0.9909,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1463,Customer service was unhelpful and rude,Negative,0.9997,Negative
+Excellent customer service and great product.,Positive,Flipkart,Raj Verma,U1464,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1465,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Karan Mehta,U1466,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1467,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1468,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Vikram Joshi,U1469,It works as described no major issues,Positive,0.9906,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Ananya Roy,U1470,Very poor quality not worth the money,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1471,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Karan Mehta,U1472,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Arjun Singh,U1473,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Arjun Singh,U1474,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Vikram Joshi,U1475,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Karan Mehta,U1476,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Ananya Roy,U1477,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Karan Mehta,U1478,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1479,It works as described no major issues,Positive,0.9906,Positive
+Item arrived late and was damaged.,Negative,Amazon,Karan Mehta,U1480,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Ananya Roy,U1481,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Neha Gupta,U1482,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1483,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1484,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1485,The product stopped working after a few days,Negative,0.9996,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1486,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Karan Mehta,U1487,The product is functional but lacks some features,Negative,0.9963,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1488,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1489,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Arjun Singh,U1490,Very poor quality not worth the money,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Vikram Joshi,U1491,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Arjun Singh,U1492,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1493,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Ananya Roy,U1494,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Neha Gupta,U1495,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Arjun Singh,U1496,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1497,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Raj Verma,U1498,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Sneha Patel,U1499,Item arrived late and was damaged,Negative,0.9993,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Neha Gupta,U1500,The product is functional but lacks some features,Negative,0.9963,Negative
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1501,It works as described no major issues,Positive,0.9906,Positive
+Item arrived late and was damaged.,Negative,Amazon,Raj Verma,U1502,Item arrived late and was damaged,Negative,0.9993,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Raj Verma,U1503,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Amazon,Sneha Patel,U1504,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Priya Sharma,U1505,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Neha Gupta,U1506,Item arrived late and was damaged,Negative,0.9993,Negative
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1507,Excellent customer service and great product,Positive,0.9999,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1508,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Arjun Singh,U1509,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Ananya Roy,U1510,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1511,Excellent customer service and great product,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1512,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1513,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1514,It works as described no major issues,Positive,0.9906,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Raj Verma,U1515,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1516,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Vikram Joshi,U1517,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1518,The experience was average not bad,Positive,0.9909,Positive
+The product stopped working after a few days.,Negative,Amazon,Priya Sharma,U1519,The product stopped working after a few days,Negative,0.9996,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1520,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1521,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Karan Mehta,U1522,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Karan Mehta,U1523,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1524,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Vikram Joshi,U1525,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1526,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1527,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1528,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Raj Verma,U1529,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1530,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1531,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product stopped working after a few days.,Negative,Flipkart,Karan Mehta,U1532,The product stopped working after a few days,Negative,0.9996,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Neha Gupta,U1533,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Priya Sharma,U1534,Excellent customer service and great product,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1535,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Neha Gupta,U1536,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Priya Sharma,U1537,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Karan Mehta,U1538,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Ananya Roy,U1539,The product is okay nothing special,Negative,0.9908,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Ananya Roy,U1540,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Arjun Singh,U1541,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Amazon,Arjun Singh,U1542,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Vikram Joshi,U1543,The product stopped working after a few days,Negative,0.9996,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1544,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1545,Item arrived late and was damaged,Negative,0.9993,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1546,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1547,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1548,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1549,The experience was average not bad,Positive,0.9909,Positive
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1550,The product stopped working after a few days,Negative,0.9996,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1551,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1552,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Karan Mehta,U1553,The product stopped working after a few days,Negative,0.9996,Negative
+The product stopped working after a few days.,Negative,Amazon,Vikram Joshi,U1554,The product stopped working after a few days,Negative,0.9996,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Neha Gupta,U1555,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Karan Mehta,U1556,Amazing quality totally worth the price,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Karan Mehta,U1557,Item arrived late and was damaged,Negative,0.9993,Negative
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1558,Item arrived late and was damaged,Negative,0.9993,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Arjun Singh,U1559,Very poor quality not worth the money,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Karan Mehta,U1560,The product is functional but lacks some features,Negative,0.9963,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1561,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Ananya Roy,U1562,The product is okay nothing special,Negative,0.9908,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1563,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Sneha Patel,U1564,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1565,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Priya Sharma,U1566,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Amazon,Sneha Patel,U1567,The experience was average not bad,Positive,0.9909,Positive
+Excellent customer service and great product.,Positive,Flipkart,Vikram Joshi,U1568,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1569,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Arjun Singh,U1570,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Vikram Joshi,U1571,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Arjun Singh,U1572,Item arrived late and was damaged,Negative,0.9993,Negative
+Excellent customer service and great product.,Positive,Amazon,Vikram Joshi,U1573,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Neha Gupta,U1574,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1575,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Arjun Singh,U1576,Item arrived late and was damaged,Negative,0.9993,Negative
+Excellent customer service and great product.,Positive,Amazon,Ananya Roy,U1577,Excellent customer service and great product,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1578,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Excellent customer service and great product.,Positive,Amazon,Arjun Singh,U1579,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1580,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Amazon,Vikram Joshi,U1581,Item arrived late and was damaged,Negative,0.9993,Negative
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1582,It works as described no major issues,Positive,0.9906,Positive
+"The experience was average, not bad.",Neutral,Amazon,Raj Verma,U1583,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1584,The product is functional but lacks some features,Negative,0.9963,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Priya Sharma,U1585,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1586,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Neha Gupta,U1587,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1588,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1589,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Neha Gupta,U1590,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Sneha Patel,U1591,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Karan Mehta,U1592,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1593,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Arjun Singh,U1594,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Priya Sharma,U1595,Very poor quality not worth the money,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Amazon,Sneha Patel,U1596,The experience was average not bad,Positive,0.9909,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1597,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1598,The product is okay nothing special,Negative,0.9908,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1599,The product stopped working after a few days,Negative,0.9996,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Priya Sharma,U1600,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Arjun Singh,U1601,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Arjun Singh,U1602,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Arjun Singh,U1603,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1604,The experience was average not bad,Positive,0.9909,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Arjun Singh,U1605,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Sneha Patel,U1606,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Sneha Patel,U1607,It works as described no major issues,Positive,0.9906,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Raj Verma,U1608,Very poor quality not worth the money,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1609,The experience was average not bad,Positive,0.9909,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Karan Mehta,U1610,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Raj Verma,U1611,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Arjun Singh,U1612,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Amazon,Raj Verma,U1613,The experience was average not bad,Positive,0.9909,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1614,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1615,The product is okay nothing special,Negative,0.9908,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Ananya Roy,U1616,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1617,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1618,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1619,Excellent customer service and great product,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1620,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1621,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Vikram Joshi,U1622,Item arrived late and was damaged,Negative,0.9993,Negative
+"The experience was average, not bad.",Neutral,Amazon,Arjun Singh,U1623,The experience was average not bad,Positive,0.9909,Positive
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1624,The product stopped working after a few days,Negative,0.9996,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1625,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1626,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1627,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Raj Verma,U1628,Very poor quality not worth the money,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1629,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1630,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Arjun Singh,U1631,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Vikram Joshi,U1632,The product is functional but lacks some features,Negative,0.9963,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Raj Verma,U1633,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Priya Sharma,U1634,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Priya Sharma,U1635,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1636,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Amazon,Karan Mehta,U1637,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1638,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Arjun Singh,U1639,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Sneha Patel,U1640,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Ananya Roy,U1641,The product is okay nothing special,Negative,0.9908,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1642,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1643,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1644,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Ananya Roy,U1645,The product is functional but lacks some features,Negative,0.9963,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1646,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Arjun Singh,U1647,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1648,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Priya Sharma,U1649,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1650,The product stopped working after a few days,Negative,0.9996,Negative
+The product stopped working after a few days.,Negative,Amazon,Karan Mehta,U1651,The product stopped working after a few days,Negative,0.9996,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Raj Verma,U1652,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1653,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Amazon,Raj Verma,U1654,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1655,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1656,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1657,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1658,The experience was average not bad,Positive,0.9909,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Karan Mehta,U1659,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Arjun Singh,U1660,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1661,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Raj Verma,U1662,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Flipkart,Neha Gupta,U1663,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Priya Sharma,U1664,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Karan Mehta,U1665,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Excellent customer service and great product.,Positive,Flipkart,Karan Mehta,U1666,Excellent customer service and great product,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Neha Gupta,U1667,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1668,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Neha Gupta,U1669,The product is functional but lacks some features,Negative,0.9963,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Arjun Singh,U1670,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Arjun Singh,U1671,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Amazon,Vikram Joshi,U1672,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Priya Sharma,U1673,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Sneha Patel,U1674,The product is okay nothing special,Negative,0.9908,Negative
+Item arrived late and was damaged.,Negative,Amazon,Neha Gupta,U1675,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1676,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1677,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Raj Verma,U1678,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Arjun Singh,U1679,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1680,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Priya Sharma,U1681,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1682,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1683,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Karan Mehta,U1684,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Raj Verma,U1685,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1686,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Amazon,Karan Mehta,U1687,The experience was average not bad,Positive,0.9909,Positive
+The product stopped working after a few days.,Negative,Flipkart,Karan Mehta,U1688,The product stopped working after a few days,Negative,0.9996,Negative
+"It works as described, no major issues.",Neutral,Amazon,Arjun Singh,U1689,It works as described no major issues,Positive,0.9906,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1690,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Sneha Patel,U1691,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Sneha Patel,U1692,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1693,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1694,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Vikram Joshi,U1695,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1696,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Priya Sharma,U1697,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1698,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1699,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1700,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1701,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Karan Mehta,U1702,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Karan Mehta,U1703,Very poor quality not worth the money,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1704,The product is okay nothing special,Negative,0.9908,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Sneha Patel,U1705,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Raj Verma,U1706,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Raj Verma,U1707,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Ananya Roy,U1708,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1709,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Neha Gupta,U1710,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1711,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Raj Verma,U1712,Item arrived late and was damaged,Negative,0.9993,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Sneha Patel,U1713,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Raj Verma,U1714,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1715,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1716,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Karan Mehta,U1717,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Arjun Singh,U1718,Very poor quality not worth the money,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Priya Sharma,U1719,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Karan Mehta,U1720,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Karan Mehta,U1721,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Arjun Singh,U1722,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Excellent customer service and great product.,Positive,Flipkart,Neha Gupta,U1723,Excellent customer service and great product,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Sneha Patel,U1724,It works as described no major issues,Positive,0.9906,Positive
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1725,Excellent customer service and great product,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Vikram Joshi,U1726,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Sneha Patel,U1727,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Amazon,Karan Mehta,U1728,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Karan Mehta,U1729,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1730,Very poor quality not worth the money,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Amazon,Vikram Joshi,U1731,The product stopped working after a few days,Negative,0.9996,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1732,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Arjun Singh,U1733,Amazing quality totally worth the price,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Sneha Patel,U1734,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1735,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1736,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1737,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product stopped working after a few days.,Negative,Amazon,Raj Verma,U1738,The product stopped working after a few days,Negative,0.9996,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Vikram Joshi,U1739,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Flipkart,Ananya Roy,U1740,Excellent customer service and great product,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Raj Verma,U1741,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Arjun Singh,U1742,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1743,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Sneha Patel,U1744,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Ananya Roy,U1745,Very poor quality not worth the money,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1746,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Raj Verma,U1747,The experience was average not bad,Positive,0.9909,Positive
+The product stopped working after a few days.,Negative,Amazon,Karan Mehta,U1748,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Priya Sharma,U1749,Very poor quality not worth the money,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Raj Verma,U1750,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Neha Gupta,U1751,The product is okay nothing special,Negative,0.9908,Negative
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1752,It works as described no major issues,Positive,0.9906,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Vikram Joshi,U1753,Very poor quality not worth the money,Negative,0.9998,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Neha Gupta,U1754,The product is functional but lacks some features,Negative,0.9963,Negative
+"It works as described, no major issues.",Neutral,Amazon,Arjun Singh,U1755,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Vikram Joshi,U1756,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Ananya Roy,U1757,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Neha Gupta,U1758,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Sneha Patel,U1759,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Karan Mehta,U1760,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Arjun Singh,U1761,The product is okay nothing special,Negative,0.9908,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Ananya Roy,U1762,Very poor quality not worth the money,Negative,0.9998,Negative
+"It works as described, no major issues.",Neutral,Amazon,Vikram Joshi,U1763,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Karan Mehta,U1764,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1765,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Amazon,Vikram Joshi,U1766,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Arjun Singh,U1767,Very poor quality not worth the money,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1768,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Priya Sharma,U1769,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Neha Gupta,U1770,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1771,The product stopped working after a few days,Negative,0.9996,Negative
+"The experience was average, not bad.",Neutral,Amazon,Karan Mehta,U1772,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Karan Mehta,U1773,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Vikram Joshi,U1774,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Sneha Patel,U1775,Amazing quality totally worth the price,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Priya Sharma,U1776,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Karan Mehta,U1777,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Priya Sharma,U1778,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1779,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1780,The product is okay nothing special,Negative,0.9908,Negative
+"The experience was average, not bad.",Neutral,Amazon,Priya Sharma,U1781,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Raj Verma,U1782,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1783,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Vikram Joshi,U1784,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Arjun Singh,U1785,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Item arrived late and was damaged.,Negative,Amazon,Arjun Singh,U1786,Item arrived late and was damaged,Negative,0.9993,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1787,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product stopped working after a few days.,Negative,Amazon,Arjun Singh,U1788,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Priya Sharma,U1789,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Sneha Patel,U1790,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Ananya Roy,U1791,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Neha Gupta,U1792,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1793,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1794,The product is okay nothing special,Negative,0.9908,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Ananya Roy,U1795,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1796,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Arjun Singh,U1797,The product is okay nothing special,Negative,0.9908,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1798,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Neha Gupta,U1799,The experience was average not bad,Positive,0.9909,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Priya Sharma,U1800,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Flipkart,Sneha Patel,U1801,Excellent customer service and great product,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Sneha Patel,U1802,Very poor quality not worth the money,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Arjun Singh,U1803,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1804,The experience was average not bad,Positive,0.9909,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Vikram Joshi,U1805,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Vikram Joshi,U1806,The product is okay nothing special,Negative,0.9908,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1807,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Arjun Singh,U1808,The product is functional but lacks some features,Negative,0.9963,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1809,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1810,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Raj Verma,U1811,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Raj Verma,U1812,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Vikram Joshi,U1813,Amazing quality totally worth the price,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Vikram Joshi,U1814,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Priya Sharma,U1815,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Arjun Singh,U1816,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Arjun Singh,U1817,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Neha Gupta,U1818,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Raj Verma,U1819,The product is okay nothing special,Negative,0.9908,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Raj Verma,U1820,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"It works as described, no major issues.",Neutral,Amazon,Sneha Patel,U1821,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1822,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Neha Gupta,U1823,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1824,The product is okay nothing special,Negative,0.9908,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Sneha Patel,U1825,The experience was average not bad,Positive,0.9909,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Neha Gupta,U1826,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Priya Sharma,U1827,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"The experience was average, not bad.",Neutral,Amazon,Sneha Patel,U1828,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Raj Verma,U1829,Very poor quality not worth the money,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Sneha Patel,U1830,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1831,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1832,The experience was average not bad,Positive,0.9909,Positive
+"It works as described, no major issues.",Neutral,Amazon,Priya Sharma,U1833,It works as described no major issues,Positive,0.9906,Positive
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1834,The product stopped working after a few days,Negative,0.9996,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Raj Verma,U1835,Amazing quality totally worth the price,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1836,Excellent customer service and great product,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Raj Verma,U1837,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U1838,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1839,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1840,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Priya Sharma,U1841,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1842,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+Excellent customer service and great product.,Positive,Flipkart,Priya Sharma,U1843,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1844,The product stopped working after a few days,Negative,0.9996,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Sneha Patel,U1845,Item arrived late and was damaged,Negative,0.9993,Negative
+"The experience was average, not bad.",Neutral,Amazon,Ananya Roy,U1846,The experience was average not bad,Positive,0.9909,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1847,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1848,The product stopped working after a few days,Negative,0.9996,Negative
+The product is functional but lacks some features.,Neutral,Amazon,Sneha Patel,U1849,The product is functional but lacks some features,Negative,0.9963,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Priya Sharma,U1850,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Amazing quality, totally worth the price.",Positive,Flipkart,Priya Sharma,U1851,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Sneha Patel,U1852,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Priya Sharma,U1853,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Vikram Joshi,U1854,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Ananya Roy,U1855,Item arrived late and was damaged,Negative,0.9993,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Arjun Singh,U1856,The product is okay nothing special,Negative,0.9908,Negative
+Customer service was unhelpful and rude.,Negative,Flipkart,Arjun Singh,U1857,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Karan Mehta,U1858,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Vikram Joshi,U1859,The product is functional but lacks some features,Negative,0.9963,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Priya Sharma,U1860,The product is functional but lacks some features,Negative,0.9963,Negative
+Excellent customer service and great product.,Positive,Amazon,Karan Mehta,U1861,Excellent customer service and great product,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Flipkart,Vikram Joshi,U1862,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Neha Gupta,U1863,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Vikram Joshi,U1864,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"The product is okay, nothing special.",Neutral,Amazon,Neha Gupta,U1865,The product is okay nothing special,Negative,0.9908,Negative
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1866,It works as described no major issues,Positive,0.9906,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Raj Verma,U1867,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Raj Verma,U1868,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Excellent customer service and great product.,Positive,Amazon,Vikram Joshi,U1869,Excellent customer service and great product,Positive,0.9999,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Karan Mehta,U1870,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Karan Mehta,U1871,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1872,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Ananya Roy,U1873,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Raj Verma,U1874,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Ananya Roy,U1875,It works as described no major issues,Positive,0.9906,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1876,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+Item arrived late and was damaged.,Negative,Amazon,Ananya Roy,U1877,Item arrived late and was damaged,Negative,0.9993,Negative
+"It works as described, no major issues.",Neutral,Amazon,Raj Verma,U1878,It works as described no major issues,Positive,0.9906,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Raj Verma,U1879,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product stopped working after a few days.,Negative,Amazon,Priya Sharma,U1880,The product stopped working after a few days,Negative,0.9996,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1881,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Vikram Joshi,U1882,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1883,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1884,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1885,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Neha Gupta,U1886,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Ananya Roy,U1887,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1888,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1889,The product is okay nothing special,Negative,0.9908,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Ananya Roy,U1890,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Sneha Patel,U1891,The product is functional but lacks some features,Negative,0.9963,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Priya Sharma,U1892,The product is okay nothing special,Negative,0.9908,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Raj Verma,U1893,The product is functional but lacks some features,Negative,0.9963,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Karan Mehta,U1894,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Karan Mehta,U1895,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Ananya Roy,U1896,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Karan Mehta,U1897,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1898,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Flipkart,Sneha Patel,U1899,Excellent customer service and great product,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Ananya Roy,U1900,Customer service was unhelpful and rude,Negative,0.9997,Negative
+The product is functional but lacks some features.,Neutral,Flipkart,Neha Gupta,U1901,The product is functional but lacks some features,Negative,0.9963,Negative
+The product stopped working after a few days.,Negative,Flipkart,Arjun Singh,U1902,The product stopped working after a few days,Negative,0.9996,Negative
+"It works as described, no major issues.",Neutral,Amazon,Raj Verma,U1903,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Priya Sharma,U1904,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Amazon,Karan Mehta,U1905,The experience was average not bad,Positive,0.9909,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Ananya Roy,U1906,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1907,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Vikram Joshi,U1908,The product is okay nothing special,Negative,0.9908,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Raj Verma,U1909,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Karan Mehta,U1910,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Raj Verma,U1911,The product is functional but lacks some features,Negative,0.9963,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Arjun Singh,U1912,The product is okay nothing special,Negative,0.9908,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1913,The product stopped working after a few days,Negative,0.9996,Negative
+"The experience was average, not bad.",Neutral,Amazon,Neha Gupta,U1914,The experience was average not bad,Positive,0.9909,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Raj Verma,U1915,The product is functional but lacks some features,Negative,0.9963,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Neha Gupta,U1916,Very poor quality not worth the money,Negative,0.9998,Negative
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1917,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Raj Verma,U1918,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+Excellent customer service and great product.,Positive,Flipkart,Vikram Joshi,U1919,Excellent customer service and great product,Positive,0.9999,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Neha Gupta,U1920,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The experience was average, not bad.",Neutral,Flipkart,Vikram Joshi,U1921,The experience was average not bad,Positive,0.9909,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1922,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Amazon,Sneha Patel,U1923,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1924,The product is okay nothing special,Negative,0.9908,Negative
+The product stopped working after a few days.,Negative,Flipkart,Karan Mehta,U1925,The product stopped working after a few days,Negative,0.9996,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Neha Gupta,U1926,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1927,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Sneha Patel,U1928,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1929,The product is okay nothing special,Negative,0.9908,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Neha Gupta,U1930,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Amazon,Raj Verma,U1931,The experience was average not bad,Positive,0.9909,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Arjun Singh,U1932,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Raj Verma,U1933,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Sneha Patel,U1934,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Karan Mehta,U1935,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Item arrived late and was damaged.,Negative,Flipkart,Karan Mehta,U1936,Item arrived late and was damaged,Negative,0.9993,Negative
+"It works as described, no major issues.",Neutral,Amazon,Raj Verma,U1937,It works as described no major issues,Positive,0.9906,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Sneha Patel,U1938,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Flipkart,Sneha Patel,U1939,Amazing quality totally worth the price,Positive,0.9999,Positive
+"The experience was average, not bad.",Neutral,Flipkart,Arjun Singh,U1940,The experience was average not bad,Positive,0.9909,Positive
+"Very poor quality, not worth the money.",Negative,Flipkart,Raj Verma,U1941,Very poor quality not worth the money,Negative,0.9998,Negative
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Ananya Roy,U1942,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Flipkart,Neha Gupta,U1943,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Excellent customer service and great product.,Positive,Amazon,Sneha Patel,U1944,Excellent customer service and great product,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Amazon,Vikram Joshi,U1945,Item arrived late and was damaged,Negative,0.9993,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Sneha Patel,U1946,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Vikram Joshi,U1947,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Ananya Roy,U1948,Amazing quality totally worth the price,Positive,0.9999,Positive
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1949,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product stopped working after a few days.,Negative,Amazon,Ananya Roy,U1950,The product stopped working after a few days,Negative,0.9996,Negative
+Excellent customer service and great product.,Positive,Flipkart,Arjun Singh,U1951,Excellent customer service and great product,Positive,0.9999,Positive
+"The product is okay, nothing special.",Neutral,Flipkart,Priya Sharma,U1952,The product is okay nothing special,Negative,0.9908,Negative
+The product stopped working after a few days.,Negative,Flipkart,Priya Sharma,U1953,The product stopped working after a few days,Negative,0.9996,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Priya Sharma,U1954,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Vikram Joshi,U1955,The product is okay nothing special,Negative,0.9908,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Neha Gupta,U1956,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+Customer service was unhelpful and rude.,Negative,Flipkart,Neha Gupta,U1957,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Flipkart,Karan Mehta,U1958,The product is okay nothing special,Negative,0.9908,Negative
+"It works as described, no major issues.",Neutral,Amazon,Neha Gupta,U1959,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Amazon,Raj Verma,U1960,It works as described no major issues,Positive,0.9906,Positive
+"It works as described, no major issues.",Neutral,Amazon,Karan Mehta,U1961,It works as described no major issues,Positive,0.9906,Positive
+Item arrived late and was damaged.,Negative,Amazon,Priya Sharma,U1962,Item arrived late and was damaged,Negative,0.9993,Negative
+Customer service was unhelpful and rude.,Negative,Amazon,Sneha Patel,U1963,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Ananya Roy,U1964,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Raj Verma,U1965,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Karan Mehta,U1966,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Neha Gupta,U1967,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+The item arrived on time and in perfect condition.,Positive,Flipkart,Sneha Patel,U1968,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Sneha Patel,U1969,Amazing quality totally worth the price,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Priya Sharma,U1970,The product is functional but lacks some features,Negative,0.9963,Negative
+"It works as described, no major issues.",Neutral,Flipkart,Raj Verma,U1971,It works as described no major issues,Positive,0.9906,Positive
+The product is functional but lacks some features.,Neutral,Flipkart,Priya Sharma,U1972,The product is functional but lacks some features,Negative,0.9963,Negative
+The product stopped working after a few days.,Negative,Flipkart,Ananya Roy,U1973,The product stopped working after a few days,Negative,0.9996,Negative
+The item arrived on time and in perfect condition.,Positive,Amazon,Neha Gupta,U1974,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"It works as described, no major issues.",Neutral,Amazon,Vikram Joshi,U1975,It works as described no major issues,Positive,0.9906,Positive
+Customer service was unhelpful and rude.,Negative,Amazon,Priya Sharma,U1976,Customer service was unhelpful and rude,Negative,0.9997,Negative
+"The product is okay, nothing special.",Neutral,Amazon,Sneha Patel,U1977,The product is okay nothing special,Negative,0.9908,Negative
+Excellent customer service and great product.,Positive,Amazon,Arjun Singh,U1978,Excellent customer service and great product,Positive,0.9999,Positive
+The item arrived on time and in perfect condition.,Positive,Amazon,Sneha Patel,U1979,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Neha Gupta,U1980,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Priya Sharma,U1981,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am very satisfied with my purchase, highly recommend.",Positive,Flipkart,Vikram Joshi,U1982,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Vikram Joshi,U1983,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Priya Sharma,U1984,Very poor quality not worth the money,Negative,0.9998,Negative
+Item arrived late and was damaged.,Negative,Flipkart,Raj Verma,U1985,Item arrived late and was damaged,Negative,0.9993,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Amazon,Neha Gupta,U1986,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+"Delivery was on time, but packaging could be better.",Neutral,Flipkart,Ananya Roy,U1987,Delivery was on time but packaging could be better,Negative,0.9965,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Karan Mehta,U1988,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+Item arrived late and was damaged.,Negative,Amazon,Vikram Joshi,U1989,Item arrived late and was damaged,Negative,0.9993,Negative
+"I am very satisfied with my purchase, highly recommend.",Positive,Amazon,Sneha Patel,U1990,I am very satisfied with my purchase highly recommend,Positive,0.9998,Positive
+"Amazing quality, totally worth the price.",Positive,Amazon,Neha Gupta,U1991,Amazing quality totally worth the price,Positive,0.9999,Positive
+"It works as described, no major issues.",Neutral,Flipkart,Vikram Joshi,U1992,It works as described no major issues,Positive,0.9906,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Vikram Joshi,U1993,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+The product stopped working after a few days.,Negative,Amazon,Sneha Patel,U1994,The product stopped working after a few days,Negative,0.9996,Negative
+"Very poor quality, not worth the money.",Negative,Flipkart,Priya Sharma,U1995,Very poor quality not worth the money,Negative,0.9998,Negative
+The product exceeded my expectations and works flawlessly.,Positive,Amazon,Sneha Patel,U1996,The product exceeded my expectations and works flawlessly,Positive,0.9999,Positive
+The product is functional but lacks some features.,Neutral,Amazon,Neha Gupta,U1997,The product is functional but lacks some features,Negative,0.9963,Negative
+The item arrived on time and in perfect condition.,Positive,Flipkart,Ananya Roy,U1998,The item arrived on time and in perfect condition,Positive,0.9986,Positive
+"I am disappointed, it did not meet my expectations.",Negative,Flipkart,Priya Sharma,U1999,I am disappointed it did not meet my expectations,Negative,0.9998,Negative
+"Very poor quality, not worth the money.",Negative,Amazon,Vikram Joshi,U2000,Very poor quality not worth the money,Negative,0.9998,Negative
