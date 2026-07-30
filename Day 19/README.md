@@ -1,19 +1,20 @@
-# Day 18 – FastAPI OOD Guardrails & Postman Testing
+# Day 19 – FastAPI Response Models
 
 ## Overview
 
-This project extends the Day 17 Loan Prediction API by implementing Out-of-Distribution (OOD) Guardrails. The API now validates numerical inputs against the ranges used during model training before generating predictions.
+This project extends the Day 18 Loan Prediction API by implementing FastAPI Response Models using Pydantic. The API now returns predictions in a standardized format with a confidence score while maintaining input validation and Out-of-Distribution (OOD) guardrails.
 
 ## Features
 
 - FastAPI REST API
-- Pydantic request validation
+- Pydantic Request Validation
+- Pydantic Response Models
 - Machine Learning Loan Prediction
-- Label Encoding for categorical features
-- Out-of-Distribution (OOD) validation
-- Custom HTTP 400 Bad Request errors
-- Postman API testing
-- Swagger UI testing
+- Label Encoding
+- OOD Guardrails
+- Confidence Score using predict_proba()
+- Swagger UI Documentation
+- Postman API Testing
 
 ## Project Files
 
@@ -33,62 +34,35 @@ Returns API status.
 
 ### POST /predict
 
-Predicts whether a loan will be approved.
+Predicts whether a loan application will be approved.
+
+## Response Format
+
+```json
+{
+    "prediction": 1,
+    "confidence_score": 0.7733
+}
+```
 
 ## OOD Validation
 
-The API checks whether numerical values fall within the same ranges as the training dataset.
-
-| Feature | Min | Max |
-|---------|----:|----:|
-| ApplicantIncome | 150 | 81000 |
-| CoapplicantIncome | 0 | 41667 |
-| LoanAmount | 9 | 700 |
-| Loan_Amount_Term | 12 | 480 |
-| Credit_History | 0 | 1 |
-
-If any value is outside these limits, the API returns:
-
-```
-
-400 Bad Request
-
-```
-
-instead of sending invalid data to the Machine Learning model.
+The API validates numerical inputs against the ranges used during model training before making predictions.
 
 ## Testing
 
-The API was tested using:
+The API was successfully tested using:
 
 - Swagger UI
 - Postman
-
-Valid requests returned:
-
-```
-
-200 OK
-
-```
-
-Invalid requests returned:
-
-```
-
-400 Bad Request
-
-```
-
-using FastAPI HTTPException.
 
 ## Technologies
 
 - Python
 - FastAPI
 - Pydantic
-- Scikit-learn
 - Pandas
+- Scikit-learn
 - Joblib
 - Uvicorn
 - Postman
