@@ -1,0 +1,46 @@
+services:
+  fastapi:
+    build: .
+    container_name: titanic-api
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      APP_ENV: production
+
+    volumes:
+      - model-storage:/app/storage
+
+    depends_on:
+      - logger
+
+    networks:
+      - ai-network
+
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:8000/health-check"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+
+  logger:
+    image: busybox
+    container_name: logger-service
+    command: sh -c "while true; do echo Logger Service Running; sleep 30; done"
+
+    networks:
+      - ai-network
+
+volumes:
+  model-storage:
+
+networks:
+  ai-network:
+    driver: bridge
