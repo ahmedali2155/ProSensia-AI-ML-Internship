@@ -152,8 +152,11 @@ The API was tested against:
 
 All invalid requests returned HTTP 400 or HTTP 422 without generating HTTP 500 Internal Server Errors.
 
-## Note
+## Performance Optimization
 
-The Docker image size is approximately 680MB due to machine learning dependencies such as scikit-learn.
+The machine learning model is loaded once during application startup instead of loading it for each request.  
+This significantly reduces inference time and improves API performance.
 
-Due to limited internet speed during build, further optimization (reducing image size below 500MB using advanced techniques) will be implemented in the next iteration.
+## API Contract
+
+Pydantic models are used to define strict request and response schemas, ensuring reliable communication between backend and ML services.
