@@ -1,0 +1,20 @@
+Day 29 - Locust Performance Benchmark
+
+Concurrent Users: 50
+Spawn Rate: 5 users/second
+
+Results:
+- Total Requests: 3370
+- Requests Per Second (RPS): 23.9
+- Failure Rate: 0%
+- Average Response Time: 49.08 ms
+- P95 Latency: 53 ms
+- P99 Latency: 56 ms
+- Maximum Response Time: 302 ms
+
+Observations:
+- The FastAPI microservice handled 50 concurrent users successfully.
+- Zero request failures were observed.
+- P95 latency remained well below the required 500 ms threshold.
+- Loading the ML model once during startup improved inference performance.
+- The API remained stable throughout the benchmark.
