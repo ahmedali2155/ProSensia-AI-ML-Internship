@@ -1,224 +1,143 @@
-# Day 38 - Prometheus Metrics Instrumentation & Grafana Observability Stack
+# ProSensia AI/ML Internship
 
-## Project Overview
+## Day 39 – CI/CD Pipeline for FastAPI Machine Learning Microservice
 
-This project extends the existing secured FastAPI Machine Learning microservice by integrating production-grade observability using Prometheus and Grafana. The application now exposes real-time performance metrics, enabling continuous monitoring of inference activity, latency, throughput, and API health.
+This repository contains my work completed during the ProSensia AI/ML Internship.
 
----
-
-# Objectives
-
-- Integrate Prometheus monitoring with FastAPI.
-- Expose application metrics through the `/metrics` endpoint.
-- Monitor prediction throughput and inference latency.
-- Visualize metrics using Grafana dashboards.
-- Deploy the complete monitoring stack using Docker Compose.
+The Day 39 project implements a production-ready Machine Learning microservice using FastAPI with a complete CI/CD pipeline powered by GitHub Actions. Every push to the repository automatically validates the application through automated testing, builds a Docker image, and publishes it to GitHub Container Registry (GHCR).
 
 ---
 
-# Technologies Used
+## Features
+
+- FastAPI Machine Learning API
+- API Key Authentication
+- Rate Limiting
+- Input Validation
+- Champion–Challenger Model Architecture
+- Automatic Model Retraining
+- Hot Model Swapping
+- Model Drift Monitoring
+- Prometheus Metrics
+- Grafana Dashboard
+- Docker Containerization
+- GitHub Actions CI/CD Pipeline
+- GitHub Container Registry (GHCR) Deployment
+
+---
+
+## Project Structure
+
+```text
+ProSensia-AI-ML-Internship
+│
+├── Day 39
+│   ├── model/
+│   ├── screenshot/
+│   ├── .github/workflows/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── main.py
+│   ├── router.py
+│   ├── security.py
+│   ├── test_pipeline.py
+│   ├── requirements.txt
+│   └── ...
+```
+
+---
+
+## Tech Stack
 
 - Python
 - FastAPI
-- Gunicorn
-- Uvicorn
-- Scikit-Learn
+- Scikit-learn
 - Pandas
-- Joblib
+- NumPy
+- Uvicorn
+- Gunicorn
 - Docker
 - Docker Compose
 - Prometheus
 - Grafana
-- prometheus-fastapi-instrumentator
-- prometheus-client
+- Pytest
+- GitHub Actions
+- GitHub Container Registry (GHCR)
 
 ---
 
-# Features
+## Automated Testing
 
-## Machine Learning API
+The CI pipeline validates:
 
-- Titanic Survival Prediction
-- Champion/Challenger Models
-- Automated Preprocessing Pipeline
-- Drift Detection
-- Background Retraining
-- Zero-Downtime Model Hot Swapping
-- A/B Traffic Routing
+- Authentication (401 Unauthorized)
+- Invalid Request Validation (422)
+- Out-of-Bounds Input (400)
+- Successful Prediction (200)
 
----
-
-## Security
-
-- API Key Authentication
-- Environment Variable Configuration
-- Rate Limiting using SlowAPI
-- CORS Policy Restriction
+Tests are executed automatically using Pytest before Docker image creation.
 
 ---
 
-## Observability
+## CI/CD Workflow
 
-Prometheus collects real-time application metrics through the `/metrics` endpoint.
+GitHub Actions automatically performs:
 
-Custom metrics include:
+1. Checkout Repository
+2. Setup Python Environment
+3. Install Dependencies
+4. Run Automated Tests
+5. Build Docker Image
+6. Push Docker Image to GitHub Container Registry (GHCR)
 
-- model_predictions_total
-- model_inference_latency_seconds
-
-Additional FastAPI metrics include:
-
-- HTTP Request Count
-- Request Duration
-- Response Status Codes
-- Throughput
+If any test fails, the Docker image is not published.
 
 ---
 
-# Docker Compose Architecture
+## Docker Image
 
-The project uses three containers:
-
-- FastAPI ML Service
-- Prometheus
-- Grafana
-
-Prometheus continuously scrapes metrics from the FastAPI application while Grafana visualizes them using dashboards.
-
----
-
-# Grafana Dashboard
-
-The dashboard displays:
-
-- Prediction Throughput
-- P95 Inference Latency
-- Requests Per Second (RPS)
-- API Error Rate
-- HTTP Request Statistics
-
----
-
-# Prometheus Metrics
-
-Example custom metrics:
-
-- model_predictions_total
-- model_inference_latency_seconds
-
-These metrics help monitor model usage and inference performance in production.
-
----
-
-# API Endpoints
-
-| Endpoint | Description |
-|-----------|-------------|
-| GET /health-check | Service health |
-| POST /predict | ML prediction |
-| GET /metrics | Prometheus metrics |
-| GET /metrics/drift | Drift detection metrics |
-| GET /ab/metrics | A/B routing metrics |
-
----
-
-# Running the Project
-
-## Build Docker Image
+Latest image:
 
 ```bash
-docker build -t prosensia-ml-service:v10 .
-```
-
-## Start Complete Monitoring Stack
-
-```bash
-docker compose up -d
-```
-
-## Verify Containers
-
-```bash
-docker compose ps
+docker pull ghcr.io/ahmedali2155/prosensia-ml-service:latest
 ```
 
 ---
 
-# Monitoring URLs
+## GitHub Actions
 
-FastAPI
+Every push to the `main` branch automatically triggers:
 
-```
-http://localhost:8000
-```
-
-Swagger
-
-```
-http://localhost:8000/docs
-```
-
-Prometheus
-
-```
-http://localhost:9090
-```
-
-Grafana
-
-```
-http://localhost:3000
-```
+- Automated Testing
+- Docker Build
+- Container Registry Deployment
 
 ---
 
-# Testing
+## Monitoring
 
-The system was verified by:
+The API exposes Prometheus metrics for:
 
-- Sending approximately 100 prediction requests.
-- Confirming prediction metrics increased.
-- Monitoring Prometheus target status.
-- Visualizing live metrics in Grafana.
-- Verifying Docker Compose deployment.
+- Request Count
+- Response Time
+- P95/P99 Latency
+- Prediction Count
+- Model Inference Latency
 
----
-
-# Project Structure
-
-```
-Day 38/
-│
-├── model/
-├── main.py
-├── router.py
-├── security.py
-├── drift_detector.py
-├── retrain.py
-├── preprocessing.py
-├── gunicorn_conf.py
-├── Dockerfile
-├── docker-compose.yml
-├── prometheus.yml
-├── requirements.txt
-├── .env.example
-├── README.md
-```
+Metrics are visualized through Grafana dashboards.
 
 ---
 
-# Key Learning Outcomes
+## Repository
 
-- Production observability for ML systems.
-- Prometheus metric instrumentation.
-- Grafana dashboard creation.
-- Counter vs Histogram metrics.
-- P95 latency monitoring.
-- Docker Compose multi-service deployment.
-- Monitoring ML inference performance in real time.
+https://github.com/ahmedali2155/ProSensia-AI-ML-Internship
 
 ---
 
-# Conclusion
+## Author
 
-This project demonstrates how a production-ready Machine Learning microservice can be monitored using Prometheus and Grafana. By collecting real-time inference metrics, monitoring latency and throughput, and visualizing system behavior through dashboards, the application becomes significantly more reliable, observable, and maintainable for production environments.
+Ahmed Ali
+
+BS Artificial Intelligence Student
+
+Python | Machine Learning | FastAPI | Docker | MLOps | CI/CD
