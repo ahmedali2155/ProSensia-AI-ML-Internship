@@ -1,10 +1,10 @@
 import os
 
-# Keep the portfolio deployment lightweight. Override with WEB_CONCURRENCY
-# when running on a larger production instance.
+# Render provides PORT for web services. Keep 10000 as the local/default
+# fallback while allowing WEB_CONCURRENCY to tune worker count.
 workers = int(os.getenv("WEB_CONCURRENCY", "1"))
 
-bind = "0.0.0.0:8000"
+bind = f"0.0.0.0:{os.getenv('PORT', '10000')}"
 worker_class = "uvicorn.workers.UvicornWorker"
 
 timeout = 120
