@@ -1,41 +1,33 @@
-from fastapi import FastAPI, HTTPException, BackgroundTasks, Depends, Request
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field, field_validator
-from starlette.concurrency import run_in_threadpool
-
-from prometheus_fastapi_instrumentator import Instrumentator
-
-from prometheus_client import Counter, Histogram
-
-import pandas as pd
-import joblib
+import os
 import math
-import threading
 import subprocess
 import sys
+import threading
 import time
 
+import joblib
+import pandas as pd
+from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field, field_validator
+from prometheus_client import Counter, Histogram
+from prometheus_fastapi_instrumentator import Instrumentator
 from slowapi import Limiter
-from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.middleware import SlowAPIMiddleware
+from starlette.concurrency import run_in_threadpool
 
+from drift_detector import detect_drift, log_request
+from router import choose_model, get_metrics, log_latency
 from security import verify_api_key
-from drift_detector import log_request, detect_drift
-
-from router import (
-    choose_model,
-    log_latency,
-    get_metrics
-)
 
 is_retraining = False
 
 app = FastAPI(
     title="Titanic ML Prediction API",
     description="Secure Self-Healing FastAPI Machine Learning Microservice",
-    version="6.0"
+    version="6.1",
 )
 
 # ============================================================
@@ -43,7 +35,6 @@ app = FastAPI(
 # ============================================================
 
 instrumentator = Instrumentator()
-
 instrumentator.instrument(app)
 instrumentator.expose(app)
 
@@ -51,27 +42,29 @@ instrumentator.expose(app)
 # RATE LIMITER
 # ============================================================
 
-limiter = Limiter(key_func=get_remote_address)
-
+limiter = Limiter(key_func=lambda request: request.client.host if request.client else "unknown")
 app.state.limiter = limiter
-
-app.add_exception_handler(
-    RateLimitExceeded,
-    _rate_limit_exceeded_handler
-)
-
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 app.add_middleware(SlowAPIMiddleware)
 
 # ============================================================
 # CORS
+# Set CORS_ORIGINS as a comma-separated environment variable in
+# deployment, for example: https://your-portfolio.example
 # ============================================================
+
+cors_origins = [
+    origin.strip()
+    for origin in os.getenv(
+        "CORS_ORIGINS",
+        "http://localhost:3000,http://127.0.0.1:3000",
+    ).split(",")
+    if origin.strip()
+]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-    ],
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -84,7 +77,6 @@ app.add_middleware(
 champion_model = None
 challenger_model = None
 pipeline = None
-
 model_lock = threading.Lock()
 
 # ============================================================
@@ -93,12 +85,12 @@ model_lock = threading.Lock()
 
 prediction_counter = Counter(
     "model_predictions_total",
-    "Total number of model predictions"
+    "Total number of model predictions",
 )
 
 inference_latency = Histogram(
     "model_inference_latency_seconds",
-    "Model inference latency"
+    "Model inference latency",
 )
 
 # ============================================================
@@ -107,7 +99,6 @@ inference_latency = Histogram(
 
 @app.on_event("startup")
 def startup():
-
     global champion_model, challenger_model, pipeline
 
     champion_model = joblib.load("model/model_v1.pkl")
@@ -124,9 +115,7 @@ def startup():
 # ============================================================
 
 def retrain_and_reload():
-
-    global challenger_model
-    global is_retraining
+    global challenger_model, is_retraining
 
     if is_retraining:
         return
@@ -134,12 +123,11 @@ def retrain_and_reload():
     is_retraining = True
 
     try:
-
         print("Starting retraining...")
 
         subprocess.run(
             [sys.executable, "retrain.py"],
-            check=True
+            check=True,
         )
 
         with model_lock:
@@ -150,14 +138,11 @@ def retrain_and_reload():
     finally:
         is_retraining = False
 
-
-
 # ============================================================
 # OOD CHECK
 # ============================================================
 
 def check_ood(data: dict):
-
     boundaries = {
         "Pclass": (1, 3),
         "Age": (1, 75),
@@ -167,11 +152,9 @@ def check_ood(data: dict):
     }
 
     for feature, (minimum, maximum) in boundaries.items():
-
         value = data[feature]
 
         if value < minimum or value > maximum:
-
             raise HTTPException(
                 status_code=400,
                 detail={
@@ -187,7 +170,6 @@ def check_ood(data: dict):
 # ============================================================
 
 class PassengerData(BaseModel):
-
     Pclass: int = Field(..., ge=1, le=3)
     Sex: str = Field(...)
     Age: float = Field(..., ge=0.42, le=80)
@@ -199,7 +181,6 @@ class PassengerData(BaseModel):
     @field_validator("Sex")
     @classmethod
     def validate_sex(cls, value):
-
         value = value.strip().lower()
 
         if value not in {"male", "female"}:
@@ -210,7 +191,6 @@ class PassengerData(BaseModel):
     @field_validator("Embarked")
     @classmethod
     def validate_embarked(cls, value):
-
         value = value.strip().upper()
 
         if value not in {"C", "Q", "S"}:
@@ -221,7 +201,6 @@ class PassengerData(BaseModel):
     @field_validator("Age", "Fare")
     @classmethod
     def validate_numbers(cls, value):
-
         if not math.isfinite(value):
             raise ValueError("Must be a finite number.")
 
@@ -232,7 +211,6 @@ class PassengerData(BaseModel):
 # ============================================================
 
 class PredictionResponse(BaseModel):
-
     survival_prediction: int
 
 # ============================================================
@@ -241,10 +219,7 @@ class PredictionResponse(BaseModel):
 
 @app.get("/health-check")
 async def health_check():
-
-    return {
-        "status": "API is live"
-    }
+    return {"status": "API is live"}
 
 # ============================================================
 # DRIFT METRICS
@@ -253,9 +228,8 @@ async def health_check():
 @app.get("/metrics/drift")
 async def drift_metrics(
     request: Request,
-    api_key: str = Depends(verify_api_key)
+    api_key: str = Depends(verify_api_key),
 ):
-
     return detect_drift()
 
 # ============================================================
@@ -265,93 +239,100 @@ async def drift_metrics(
 @app.get("/ab/metrics")
 async def ab_metrics(
     request: Request,
-    api_key: str = Depends(verify_api_key)
+    api_key: str = Depends(verify_api_key),
 ):
-
     return get_metrics()
 
 # ============================================================
-# PREDICTION
+# PROTECTED PREDICTION ENDPOINT
 # ============================================================
 
-@app.post(
-    "/predict",
-    response_model=PredictionResponse
-)
+@app.post("/predict", response_model=PredictionResponse)
 @limiter.limit("100/minute")
 async def predict(
     request: Request,
     passenger: PassengerData,
     background_tasks: BackgroundTasks,
-    api_key: str = Depends(verify_api_key)
-
+    api_key: str = Depends(verify_api_key),
 ):
-
-    if (
-        champion_model is None
-        or challenger_model is None
-        or pipeline is None
-    ):
-
+    if champion_model is None or challenger_model is None or pipeline is None:
         raise HTTPException(
             status_code=500,
-            detail="Model or preprocessing pipeline not loaded."
+            detail="Model or preprocessing pipeline not loaded.",
         )
 
-    # Convert Pydantic model to dictionary
     input_data = passenger.model_dump()
-
-    # Log production request
     log_request(input_data)
-
-    # OOD validation
     check_ood(input_data)
 
-    # Check drift
     drift = detect_drift()
-
     if drift["drift_detected"]:
         background_tasks.add_task(retrain_and_reload)
 
-    # Convert to DataFrame
     input_df = pd.DataFrame([input_data])
-
-    # Automatic preprocessing
     processed_data = pipeline.transform(input_df)
-
-    # ========================================================
-    # A/B Routing
-    # ========================================================
-
     selected_model = choose_model()
 
     start_time = time.perf_counter()
 
     with model_lock:
-
         if selected_model == "champion":
-
             prediction = await run_in_threadpool(
                 champion_model.predict,
-                processed_data
+                processed_data,
             )
-
         else:
-
             prediction = await run_in_threadpool(
                 challenger_model.predict,
-                processed_data
+                processed_data,
             )
 
     latency = time.perf_counter() - start_time
-
-    log_latency(
-        selected_model,
-        latency
-    )
+    log_latency(selected_model, latency)
     inference_latency.observe(latency)
     prediction_counter.inc()
-    
+
+    return PredictionResponse(
+        survival_prediction=int(prediction[0])
+    )
+
+# ============================================================
+# PUBLIC PORTFOLIO DEMO
+# No API key is required here. This endpoint intentionally does
+# not log requests or trigger retraining, making it safer for a
+# public portfolio frontend while /predict remains protected.
+# ============================================================
+
+@app.post("/demo/predict", response_model=PredictionResponse)
+@limiter.limit("20/minute")
+async def demo_predict(
+    request: Request,
+    passenger: PassengerData,
+):
+    if champion_model is None or pipeline is None:
+        raise HTTPException(
+            status_code=500,
+            detail="Model or preprocessing pipeline not loaded.",
+        )
+
+    input_data = passenger.model_dump()
+    check_ood(input_data)
+
+    input_df = pd.DataFrame([input_data])
+    processed_data = pipeline.transform(input_df)
+
+    start_time = time.perf_counter()
+
+    with model_lock:
+        prediction = await run_in_threadpool(
+            champion_model.predict,
+            processed_data,
+        )
+
+    latency = time.perf_counter() - start_time
+    inference_latency.observe(latency)
+    prediction_counter.inc()
+
     return PredictionResponse(
         survival_prediction=int(prediction[0])
     )
