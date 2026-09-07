@@ -1,38 +1,17 @@
-import multiprocessing
+import os
 
-# ============================================================
-# SERVER CONFIGURATION
-# ============================================================
+# Keep the portfolio deployment lightweight. Override with WEB_CONCURRENCY
+# when running on a larger production instance.
+workers = int(os.getenv("WEB_CONCURRENCY", "1"))
 
 bind = "0.0.0.0:8000"
-
-# ============================================================
-# WORKER CONFIGURATION
-# Formula: (2 × CPU Cores) + 1
-# ============================================================
-
-workers = (multiprocessing.cpu_count() * 2) + 1
-
 worker_class = "uvicorn.workers.UvicornWorker"
-
-# ============================================================
-# TIMEOUT SETTINGS
-# ============================================================
 
 timeout = 120
 keepalive = 5
 
-# ============================================================
-# LOGGING
-# ============================================================
-
 accesslog = "-"
 errorlog = "-"
 loglevel = "info"
-
-# ============================================================
-# PRELOAD APPLICATION
-# Reduces duplicate model loading where possible
-# ============================================================
 
 preload_app = True
