@@ -4,6 +4,8 @@ import subprocess
 import sys
 import threading
 import time
+from datetime import datetime, timezone
+from uuid import uuid4
 
 import joblib
 import pandas as pd
@@ -27,7 +29,7 @@ is_retraining = False
 app = FastAPI(
     title="Titanic ML Prediction API",
     description="Secure Self-Healing FastAPI Machine Learning Microservice",
-    version="6.1",
+    version="6.2",
 )
 
 # ============================================================
@@ -42,15 +44,15 @@ instrumentator.expose(app)
 # RATE LIMITER
 # ============================================================
 
-limiter = Limiter(key_func=lambda request: request.client.host if request.client else "unknown")
+limiter = Limiter(
+    key_func=lambda request: request.client.host if request.client else "unknown"
+)
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 app.add_middleware(SlowAPIMiddleware)
 
 # ============================================================
 # CORS
-# Set CORS_ORIGINS as a comma-separated environment variable in
-# deployment, for example: https://your-portfolio.example
 # ============================================================
 
 cors_origins = [
@@ -211,7 +213,45 @@ class PassengerData(BaseModel):
 # ============================================================
 
 class PredictionResponse(BaseModel):
+    # Kept for backward compatibility with the original API.
     survival_prediction: int
+    prediction: str
+    prediction_id: str
+    model: str
+    confidence: float | None = None
+    latency_ms: float
+    timestamp: str
+
+# ============================================================
+# PREDICTION HELPERS
+# ============================================================
+
+def build_prediction_response(
+    model,
+    prediction,
+    selected_model: str,
+    latency: float,
+):
+    prediction_value = int(prediction[0])
+    confidence = None
+
+    if hasattr(model, "predict_proba"):
+        probabilities = model.predict_proba(prediction.reshape(1, -1))[0]
+        confidence = round(float(max(probabilities)), 4)
+
+    prediction_label = (
+        "Survived" if prediction_value == 1 else "Did Not Survive"
+    )
+
+    return PredictionResponse(
+        survival_prediction=prediction_value,
+        prediction=prediction_label,
+        prediction_id=str(uuid4()),
+        model=selected_model.capitalize(),
+        confidence=confidence,
+        latency_ms=round(latency * 1000, 2),
+        timestamp=datetime.now(timezone.utc).isoformat(),
+    )
 
 # ============================================================
 # HEALTH CHECK
@@ -276,31 +316,42 @@ async def predict(
     start_time = time.perf_counter()
 
     with model_lock:
-        if selected_model == "champion":
-            prediction = await run_in_threadpool(
-                champion_model.predict,
-                processed_data,
-            )
-        else:
-            prediction = await run_in_threadpool(
-                challenger_model.predict,
-                processed_data,
-            )
+        selected_model_object = (
+            champion_model if selected_model == "champion" else challenger_model
+        )
+        prediction = await run_in_threadpool(
+            selected_model_object.predict,
+            processed_data,
+        )
 
     latency = time.perf_counter() - start_time
     log_latency(selected_model, latency)
     inference_latency.observe(latency)
     prediction_counter.inc()
 
+    # predict_proba is evaluated on the processed feature vector solely
+    # for the confidence displayed by the response.
+    confidence = None
+    if hasattr(selected_model_object, "predict_proba"):
+        probabilities = await run_in_threadpool(
+            selected_model_object.predict_proba,
+            processed_data,
+        )
+        confidence = round(float(max(probabilities[0])), 4)
+
+    prediction_value = int(prediction[0])
     return PredictionResponse(
-        survival_prediction=int(prediction[0])
+        survival_prediction=prediction_value,
+        prediction="Survived" if prediction_value == 1 else "Did Not Survive",
+        prediction_id=str(uuid4()),
+        model=selected_model.capitalize(),
+        confidence=confidence,
+        latency_ms=round(latency * 1000, 2),
+        timestamp=datetime.now(timezone.utc).isoformat(),
     )
 
 # ============================================================
 # PUBLIC PORTFOLIO DEMO
-# No API key is required here. This endpoint intentionally does
-# not log requests or trigger retraining, making it safer for a
-# public portfolio frontend while /predict remains protected.
 # ============================================================
 
 @app.post("/demo/predict", response_model=PredictionResponse)
@@ -329,10 +380,25 @@ async def demo_predict(
             processed_data,
         )
 
+        confidence = None
+        if hasattr(champion_model, "predict_proba"):
+            probabilities = await run_in_threadpool(
+                champion_model.predict_proba,
+                processed_data,
+            )
+            confidence = round(float(max(probabilities[0])), 4)
+
     latency = time.perf_counter() - start_time
     inference_latency.observe(latency)
     prediction_counter.inc()
 
+    prediction_value = int(prediction[0])
     return PredictionResponse(
-        survival_prediction=int(prediction[0])
+        survival_prediction=prediction_value,
+        prediction="Survived" if prediction_value == 1 else "Did Not Survive",
+        prediction_id=str(uuid4()),
+        model="Champion",
+        confidence=confidence,
+        latency_ms=round(latency * 1000, 2),
+        timestamp=datetime.now(timezone.utc).isoformat(),
     )
